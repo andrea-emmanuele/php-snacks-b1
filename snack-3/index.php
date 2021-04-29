@@ -23,6 +23,7 @@
         for ($i = 0; $i < count($posts); $i++): ?>
 
     <div style="display: flex; flex-direction: column; justify-content: center; margin-right: 3rem;">
+            <h4>Date:</h4> <?php echo "<span>" . $index[$i] . "</span>"; ?>
             <h3>Title:</h3> <?php echo "<span>" . $posts[$index[$i]]["title"] . "</span>"; ?>
             <h3>Author:</h3> <?php echo "<span>" . $posts[$index[$i]]["author"] . "</span>"; ?>
             <h3>Text:</h3> <?php echo "<span>" . $posts[$index[$i]]["text"] . "</span>"; ?>
